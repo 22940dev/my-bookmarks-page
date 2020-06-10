@@ -5,12 +5,12 @@ const iconList = [
        link: "https://fontawesome.com/"
    },
    {
-    name: "Font Awesome cheatsheet",
+    name: "FA cheatsheet",
     icon_url: "https://external-content.duckduckgo.com/ip3/fontawesome.com.ico",
     link: "https://fontawesome.com/cheatsheet"
 },
       {
-       name: "Favicon & App Icon Generator",
+       name: "Favicon Icon Generator",
        icon_url: "https://external-content.duckduckgo.com/ip3/www.favicon-generator.org.ico",
        link: "https://www.favicon-generator.org/"
    },
@@ -20,12 +20,12 @@ const iconList = [
        link: "https://iconmonstr.com/"
    },
    {
-       name: "Font Awesome brand colors",
+       name: "FA brand colors",
        icon_url: "https://external-content.duckduckgo.com/ip3/codepen.io.ico",
        link: "https://codepen.io/elishaterada/pen/tGokD"
    },
       {
-       name: "Material Design icons",
+       name: "Material Design",
        icon_url: "https://external-content.duckduckgo.com/ip3/materialdesignicons.com.ico",
        link: "https://materialdesignicons.com/"
    }
