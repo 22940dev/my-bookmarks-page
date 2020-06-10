@@ -5,6 +5,7 @@ import CodingChallenges from './CodingChallenges'
 import Documentation from './Documentation'
 import Color from './Color'
 import Image from './Image'
+import Icon from './Icon'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <CodingChallenges />
       <Color />
       <Image />
+      <Icon />
     </div>
   );
 }
