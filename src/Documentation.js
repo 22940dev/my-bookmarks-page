@@ -1,8 +1,8 @@
 import React from 'react'
-import learningList from './learningList'
+import documentationList from './documentationList'
 
-function Learning() {
-        const learningListTile = learningList.map((item) => (
+function Documentation() {
+        const documentationListTile = documentationList.map((item) => (
             <div className="tile">
                 <a href={item.link} target="_blank" rel="noopener noreferrer">
                 <img src={item.icon_url} alt="site icon"  className="icon_tile" />
@@ -12,9 +12,9 @@ function Learning() {
         ))
     return (
             <div className="bookmark_box">
-                <h1 className="bookmark_title">Learning</h1>
+                <h1 className="bookmark_title">Documentation</h1>
                 <div className="tile_flex_container">
-                {learningListTile}
+                {documentationListTile}
                 </div>
                 
             </div>
@@ -22,4 +22,4 @@ function Learning() {
 }
 
 
-export default Learning
+export default Documentation

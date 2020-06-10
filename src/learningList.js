@@ -18,6 +18,11 @@ const learningList = [
         name: "Udemy",
         icon_url: "https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg",
         link: "https://www.udemy.com/join/login-popup/?next=/home/my-courses/learning/"
+    },
+      {
+        name: "Pluralsight",
+        icon_url: "https://afiles.webengage.com/14507c325/35bafddd-be03-4920-9e0a-8636f06c4d3e.jpg",
+        link: "https://app.pluralsight.com/library/free"
     }
     // {
     //     name: "",
