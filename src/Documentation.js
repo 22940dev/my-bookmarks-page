@@ -3,12 +3,16 @@ import documentationList from './documentationList'
 
 function Documentation() {
         const documentationListTile = documentationList.map((item) => (
-            <div className="tile">
-                <a href={item.link} target="_blank" rel="noopener noreferrer">
+
+            <div>
+                <a href={item.link} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                <div className="tile">
                 <img src={item.icon_url} alt="site icon"  className="icon_tile" />
-                </a>
-                <h3 className="tile_name">{item.name}</h3>
+               <h3 className="tile_name">{item.name}</h3>
+                </div>
+            </a>
             </div>
+            
         ))
     return (
             <div className="bookmark_box">

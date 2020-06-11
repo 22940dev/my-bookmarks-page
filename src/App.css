@@ -71,7 +71,9 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 .tile_name {
  color: black;
  font-size: .9rem;
+ 
 }
+
 
 .homebar {
   background-color: rgba(48,71,94, .9);
