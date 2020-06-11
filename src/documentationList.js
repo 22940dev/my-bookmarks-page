@@ -61,7 +61,13 @@ const documentationList = [
     },
     {
         name: "DevDocs",
-        icon_url: "https://external-content.duckduckgo.com/ip3/devdocs.io.ico"
+        icon_url: "https://external-content.duckduckgo.com/ip3/devdocs.io.ico",
+        link: "https://devdocs.io/"
+    },
+    {
+        name: "Can I use?",
+        icon_url: "https://external-content.duckduckgo.com/ip3/caniuse.com.ico",
+        link: "https://caniuse.com/"
     }
 
 ]

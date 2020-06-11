@@ -1,8 +1,8 @@
 import React from 'react'
-import homebarList from './homebarList'
+import cssList from './cssList'
 
-function Homebar() {
-        const homebarListTile = homebarList.map((item) => (
+function Css() {
+        const cssListTile = cssList.map((item) => (
             <div className="tile">
                 <a href={item.link} target="_blank" rel="noopener noreferrer">
                 <img src={item.icon_url} alt="site icon"  className="icon_tile" />
@@ -11,10 +11,10 @@ function Homebar() {
             </div>
         ))
     return (
-            <div className="bookmark_box homebar">
-               
+            <div className="bookmark_box">
+                <h1 className="bookmark_title">CSS</h1>
                 <div className="tile_flex_container">
-                {homebarListTile}
+                {cssListTile}
                 </div>
                 
             </div>
@@ -22,4 +22,4 @@ function Homebar() {
 }
 
 
-export default Homebar
+export default Css
