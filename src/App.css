@@ -1,12 +1,34 @@
+
+:root {
+  background: #141E30;
+}
+
+
+
 .App {
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+
+
+html {
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+
 
 
 .bookmark_title {
   margin-bottom: 2rem;
+  color: white;
  }
 
 .bookmark_box {
@@ -26,11 +48,19 @@
 
 .tile {
   border-radius: 15px;
-  border: .5px solid gray;
   width: 150px;
   height: 150px;
   margin: .5rem;
-  
+  background-color: #f9f9f9;
+  box-shadow: 3px 3px 6px 0px #222831;
+}
+
+.tile:hover {
+  cursor: pointer;
+  transform: rotateX(-15deg);
+  transform: rotateY(-15deg);
+  filter: contrast(90%);
+  filter: brightness(105%);
 }
 
 .icon_tile {
@@ -41,4 +71,16 @@
 .tile_name {
  color: black;
  font-size: .9rem;
+}
+
+.homebar {
+  background-color: rgba(48,71,94, .9);
+  padding-top: .5rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+}
+
+.homebar:hover {
+  background-color: rgba(48,71,94, .95);
+  transition: 750ms ease-in-out;
 }

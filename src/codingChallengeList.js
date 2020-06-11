@@ -1,12 +1,12 @@
 const codingChallengeList = [
     {
         name: "Codewars",
-        icon_url: "https://www.codewars.com/assets/logos/logo-square-red-big-c74ae0e7a89b33acd3beb1f08229630391934650e3bbd30ddc40e8be5bbfc71e.png",
+        icon_url: "https://external-content.duckduckgo.com/ip3/www.codewars.com.ico",
         link: "https://www.codewars.com/?"
     },
     {
         name: "Project Euler",
-        icon_url: "https://projecteuler.net/themes/20200426/logo_default.png",
+        icon_url: "https://external-content.duckduckgo.com/ip3/projecteuler.net.ico",
         link: "https://projecteuler.net/archives"
     },
     {
@@ -16,12 +16,12 @@ const codingChallengeList = [
     },
     {
         name: "CodeChef",
-        icon_url: "https://www.codechef.com/sites/all/themes/abessive/logo.svg",
+        icon_url: "https://external-content.duckduckgo.com/ip3/www.codechef.com.ico",
         link: "https://www.codechef.com/problems/school"
     },
     {
         name: "HackerRank",
-        icon_url: "https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png",
+        icon_url: "https://external-content.duckduckgo.com/ip3/www.hackerrank.com.ico",
         link: "https://www.hackerrank.com/dashboards"
     },
     {
@@ -31,7 +31,7 @@ const codingChallengeList = [
     },
     {
         name: "Codesignal",
-        icon_url: "https://codesignal.com/wp-content/uploads/2020/03/Logo_Main.svg",
+        icon_url: "https://external-content.duckduckgo.com/ip3/codesignal.com.ico",
         link: "https://codesignal.com/"
     }
     // {

@@ -6,13 +6,15 @@ import Documentation from './Documentation'
 import Color from './Color'
 import Image from './Image'
 import Icon from './Icon'
+import Homebar from './Homebar'
 
 function App() {
   return (
     <div className="App">
-      <Learning />
+      <Homebar />
       <Documentation />
       <CodingChallenges />
+      <Learning />
       <Color />
       <Image />
       <Icon />
