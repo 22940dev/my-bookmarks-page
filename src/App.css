@@ -3,8 +3,6 @@
   background: #141E30;
 }
 
-
-
 .App {
   text-align: center;
   box-sizing: border-box;
@@ -12,19 +10,11 @@
   padding: 0;
 }
 
-
-
 html {
 background: #141E30;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-
-
-
-
-
 
 .bookmark_title {
   margin-bottom: 2rem;
@@ -74,7 +64,6 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
  
 }
 
-
 .homebar {
   background-color: rgba(48,71,94, .9);
   padding-top: 1.5rem;
@@ -86,3 +75,34 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   background-color: rgba(48,71,94, .95);
   transition: 750ms ease-in-out;
 }
+
+
+@media screen and (max-width: 850px) {
+  .tile {
+    transform: scale(.75);
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .tile {
+    transform: scale(.5);
+    margin: -2rem;
+  }
+ 
+}
+
+@media screen and (max-width: 450px) {
+  .tile {
+    transform: scale(.5);
+    margin: -2rem;
+  }
+  .bookmark_title {
+    font-size: 1.5rem;
+  }
+  .homebar {
+    margin-bottom: 2rem;
+  }
+ 
+}
+
