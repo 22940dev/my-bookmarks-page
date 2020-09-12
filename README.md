@@ -1,4 +1,6 @@
 <h1 align="center">Welcome to Bookmark Homepage 👋</h1>
+
+![screenshot](https://github.com/SJellen/bookmark-page/blob/master/ScreenShot.png)
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/scottjellen" target="_blank">
