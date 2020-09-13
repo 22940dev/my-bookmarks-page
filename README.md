@@ -36,7 +36,7 @@ yarn run test
 
 👤 **Scott Jellen**
 
-* Website: https://scottjellen.me/
+* Website: https://scottjellen.com/
 * Twitter: [@scottjellen](https://twitter.com/scottjellen)
 * Github: [@SJellen](https://github.com/SJellen)
 
